@@ -7,7 +7,7 @@ const ProfilePic: FC<ProfilePicProps> = ({}) => {
     return (
         <div className="">
             <Image
-                alt="Neeraj Walia"
+                alt="Suresh Jangid Profile pic"
                 src="/images/profilePic.jpeg"
                 height={120}
                 width={120}

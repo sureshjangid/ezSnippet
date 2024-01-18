@@ -32,64 +32,56 @@ export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
     title: 'Discord Clone',
-    techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript',
+    techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript, Prisma',
     imageUrl: 'discord-clone.jpeg',
-    href: 'https://github.com/nwaliaez/discord-clone',
+    href: 'https://github.com/sureshjangid/discord-clone',
   },
   {
     id: 2,
-    title: 'Spotify Clone',
+    title: 'Movix',
     techStack:
-      'Next.js 13, React Hook Form, Zustand, Radix UI, Typescript, Tailwind CSS',
-    imageUrl: 'spotify-clone.gif',
-    href: 'https://github.com/nwaliaez/spotify-clone',
+      'JavaScript, ReactJs, RTK, JSX, SASS, Third party APIs',
+    imageUrl: 'movix.png',
+    href: 'https://github.com/sureshjangid/movix-website',
   },
   {
     id: 3,
-    title: 'Amazon Clone',
+    title: 'Chat App',
     techStack:
-      'NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS',
-    imageUrl: 'amazon-clone.jpeg',
-    href: 'https://github.com/nwaliaez/eCommerce',
+      'NodeJs, Express, Mongoose, React, JavaScript, Context api, Chakra UI, JSX',
+    imageUrl: 'chatapp.webp',
+    href: 'https://github.com/sureshjangid/chatapp',
   },
   {
     id: 4,
-    title: ' DALL·E Clone',
-    techStack: 'OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS',
-    imageUrl: 'dalle-clone.webp',
-    href: 'https://github.com/nwaliaez/dalleClone',
+    title: ' Youtube Clone',
+    techStack: 'React Js, JavaScript, Tailwind css, JSX, Third party APIs',
+    imageUrl: 'youtube-clone.png',
+    href: 'https://github.com/sureshjangid/youtube',
   },
 ];
 
 export const moreProjects = [
   {
     id: 1,
-    title: 'Ez Clothing',
-    techStack: 'Next.js 13, Drizzle, PostgreSql, Docker, ShadCn',
+    title: 'Goolge Clone',
+    techStack: 'React Js, JavaScript, Tailwind css, JSX, Third party APIs',
     icon: 'shirt',
-    href: 'https://github.com/nwaliaez/ezClothing',
+    href: 'https://github.com/sureshjangid/google-clone',
   },
   {
     id: 2,
-    title: 'Ethereum Lottery',
-    techStack: 'Solidity, Ethers, Hardhat, Chai',
-    icon: 'lottery',
-    href: 'https://github.com/nwaliaez/HardhatLottery',
+    title: 'E-commerce',
+    techStack: 'JavaScript, React, FireBase, Bootstrap, JSX',
+    icon: 'shirt',
+    href: 'https://github.com/sureshjangid/e-com',
   },
   {
     id: 3,
-    title: 'File Sharing App',
-    techStack: 'Node js, Express, Web Sockets, WebRTC, ReactJs',
+    title: 'Car Show Case',
+    techStack: 'TypeScript, Next Js, JavaScript, React JS, Tailwind css',
     icon: 'share',
-    href: 'https://github.com/nwaliaez/filetransfer-webrtc',
-  },
-
-  {
-    id: 4,
-    title: 'Snake Game',
-    techStack: 'Next.js 13, Tailwind CSS, Typescript',
-    icon: 'game',
-    href: 'https://snake-nwaliaez.vercel.app/',
+    href: 'https://github.com/sureshjangid/car_showcase',
   },
 ];
 

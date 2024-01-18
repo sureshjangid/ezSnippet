@@ -15,14 +15,7 @@ const Menu: FC<MenuProps> = ({}) => {
             >
                 Home
             </List>
-            <List
-                link="/home"
-                variant="secondary"
-                sizes="small"
-                effect="changeColor"
-            >
-                Videos
-            </List>
+           
             <List
                 link="/home"
                 variant="secondary"

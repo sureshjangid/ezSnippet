@@ -37,7 +37,7 @@ const Intro: FC<IntroProps> = ({}) => {
                     knowledge, discover innovative ideas, embrace quick tips,
                     master clever tricks, conquer coding challenges, implement
                     best practices, and even tackle interview questions. Hit
-                    that follow button on @ezsnippet if you&apos;ve not already
+                    that follow button on @Suresh Jangid if you&apos;ve not already
                     done so and let&apos;s build something extraordinary, one
                     line of code at a time!
                 </div>

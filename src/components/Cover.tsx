@@ -2,7 +2,7 @@ import { FC } from 'react';
 import ProfilePic from './cover/ProfilePic';
 import ProfileName from './cover/ProfileName';
 import Button from './ui/Button';
-import { Instagram } from 'lucide-react';
+import { Instagram, Linkedin, Twitter } from 'lucide-react';
 import Link from 'next/link';
 
 interface CoverProps {}
@@ -18,12 +18,12 @@ const Cover: FC<CoverProps> = ({}) => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https://instagram.com/ezSnippet"
+                            href="https://www.linkedin.com/in/suresh-jangid-298023213/"
                         >
                             <Button variant="primary" sizes={'small'}>
-                                <Instagram />
+                                <Linkedin />
                                 <span className="hidden md:block">
-                                    Follow me on Instagram
+                                    Follow me on Linkedin
                                 </span>
                             </Button>
                         </Link>

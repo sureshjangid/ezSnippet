@@ -1,24 +1,16 @@
-import { FC } from 'react';
 import {
   Code,
   Flame,
   Github,
   Home,
-  Image as ImageIcon,
   Instagram,
-  Layers,
   Linkedin,
-  Scissors,
-  Share2,
-  Shirt,
-  ShoppingCart,
-  Ticket,
   Video,
-  X,
-  Youtube,
+  X
 } from 'lucide-react';
-import List from '../ui/List';
+import { FC } from 'react';
 import { useMenu } from '../Provider';
+import List from '../ui/List';
 
 interface MenuProps {}
 
@@ -42,39 +34,29 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
-        <Video /> Videos
-      </List>
 
       {/* List 2 */}
       <div className="mt-5">Socials</div>
       <List
         target="_blank"
-        link="https://www.instagram.com/ezsnippet/"
+        link="https://www.instagram.com/suresh.jangid14/"
         effect="slideUp"
       >
         <Instagram color="#b5179e" /> Instagram
       </List>
-      <List target="_blank" link="https://github.com/nwaliaez" effect="slideUp">
+      <List target="_blank" link="https://github.com/sureshjangid" effect="slideUp">
         <Github color="#2a9d8f" /> Github
       </List>
       <List
         target="_blank"
-        link="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
+        link="https://twitter.com/Suresh_jangid14"
         effect="slideUp"
       >
-        <Youtube color="#e63946" /> Youtube
+        <X color="#fff" /> X
       </List>
       <List
         target="_blank"
-        link="https://stackoverflow.com/users/20331641/neeraj-walia"
-        effect="slideUp"
-      >
-        <Layers color="#f77f00" /> Stack overflow
-      </List>
-      <List
-        target="_blank"
-        link="https://www.linkedin.com/in/ezSnippet/"
+        link="https://www.linkedin.com/in/suresh-jangid-298023213/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin
