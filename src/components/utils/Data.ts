@@ -57,7 +57,7 @@ export const projectCard: IProjectSectionCardData[] = [
     title: ' Youtube Clone',
     techStack: 'React Js, JavaScript, Tailwind css, JSX, Third party APIs',
     imageUrl: 'youtube-clone.png',
-    href: 'https://github.com/sureshjangid/youtube',
+    href: 'https://github.com/sureshjangid/youtube-clone',
   },
 ];
 
