@@ -86,6 +86,7 @@ export const moreProjects = [
 ];
 
 export const frontendCard: ISectionCardData[] = [
+  
   {
     id: 1,
     title: 'HTML, CSS',
