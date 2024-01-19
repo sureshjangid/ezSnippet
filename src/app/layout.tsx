@@ -20,8 +20,8 @@ export default function RootLayout({
         <html lang="en">
             <body>
                 <MenuProvider>
-                    <ContactFormProvider>
-                        <ContactForm />
+                    {/* <ContactFormProvider> */}
+                        {/* <Contac tForm /> */}
                         <Toaster />
                         <div className="flex">
                             <SideBar />
@@ -30,7 +30,7 @@ export default function RootLayout({
                                 {children}
                             </main>
                         </div>
-                    </ContactFormProvider>
+                    {/* </ContactFormProvider> */}
                 </MenuProvider>
             </body>
         </html>
