@@ -41,7 +41,11 @@ const TechStack: FC<TechStackProps> = ({}) => {
           classaName="bg-[#10c0a2]"
           tech={[
             'GIT',
+            'Github',
             'AWS',
+            'Docker',
+            'Jenkins'
+
           ]}
         />
       </div>

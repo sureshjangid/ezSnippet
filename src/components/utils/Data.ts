@@ -1,13 +1,3 @@
-import {
-  Gamepad2,
-  Headphones,
-  Image,
-  LucideIcon,
-  Share2,
-  Shirt,
-  ShoppingCart,
-  Ticket,
-} from 'lucide-react';
 
 export interface ISectionCardData {
   id: number;
@@ -29,15 +19,23 @@ export interface IProjectSectionCardData {
 }
 
 export const projectCard: IProjectSectionCardData[] = [
+ 
   {
     id: 1,
-    title: 'Discord Clone',
+    title: 'Zoom Meeting',
+    techStack: 'Next.js, TypeScript, Clerk, getstream, Shadcn, and Tailwind CSS',
+    imageUrl: 'yoom.png',
+    href: 'https://github.com/sureshjangid/zoom-meeting',
+  },
+  {
+    id: 2,
+    title: 'Discord',
     techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript, Prisma',
     imageUrl: 'discord-clone.jpeg',
     href: 'https://github.com/sureshjangid/discord-clone',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Movix',
     techStack:
       'JavaScript, ReactJs, RTK, JSX, SASS, Third party APIs',
@@ -45,7 +43,7 @@ export const projectCard: IProjectSectionCardData[] = [
     href: 'https://github.com/sureshjangid/movix-website',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Chat App',
     techStack:
       'NodeJs, Express, Mongoose, React, JavaScript, Context api, Chakra UI, JSX',
@@ -53,7 +51,7 @@ export const projectCard: IProjectSectionCardData[] = [
     href: 'https://github.com/sureshjangid/chatapp',
   },
   {
-    id: 4,
+    id: 5,
     title: ' Youtube Clone',
     techStack: 'React Js, JavaScript, Tailwind css, JSX, Third party APIs',
     imageUrl: 'youtube-clone.png',
