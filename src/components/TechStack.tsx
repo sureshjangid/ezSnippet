@@ -14,27 +14,30 @@ const TechStack: FC<TechStackProps> = ({}) => {
           title="Frontend"
           classaName="bg-[#4f91f2]"
           tech={[
+            'Javascript',
+            'Typescript',
+            'React Js',
+            'Next Js',
+            'Nx monorepo',
+            'Zustand',
+            'Redux',
             'HTML',
             'CSS',
             'SASS',
             'ShadCn UI',
             'Bootstrap',
             'Tailwind',
-            'Javascript',
-            'Typescript',
-            'React Js',
-            'Next Js',
           ]}
         />
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'PHP', 'Laravel']}
+          tech={['Micro services Architecture','Node Js', 'Express Js','Payment Gateway','K6','Database Design','API Gateway','Rabbit MQ','PHP','Laravel']}
         />
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MySql', 'MongoDB', 'Prisma', 'Firebase']}
+          tech={['MySql', 'MongoDB', 'Prisma', 'Firebase','Redis']}
         />
         <TechCard
           title="Devops"
@@ -44,7 +47,10 @@ const TechStack: FC<TechStackProps> = ({}) => {
             'Github',
             'AWS',
             'Docker',
-            'Jenkins'
+            'Jenkins',
+            'Kubernetes',
+            'PM2',
+            'Gitlab'
 
           ]}
         />

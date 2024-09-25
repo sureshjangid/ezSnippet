@@ -12,7 +12,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
             {/* <SearchBar /> */}
             <div>{/* Place holder for search bar */}</div>
             <div className="flex items-center gap-5">
-                <a href='https://drive.google.com/file/d/13LHPfUjPkWt1bQQJGd04m0XevY8E4_RR/view' target='__'   style={{ color: 'white' }}
+                <a href='https://drive.google.com/file/d/1VrU28OoaHVcCkYCKSb-Y8-dCBIBhPWEe/view?usp=sharing' target='__'   style={{ color: 'white' }}
                     className="resume-link">
                     Resume 
                 </a>
